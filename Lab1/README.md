@@ -1,9 +1,9 @@
-# 🐱 Cat Breed Classification 
+# Cat Breed Classification 
 This repository contains two Jupyter notebooks for training a deep learning model that classifies **cat breeds** from images using **PyTorch**. The project loads a structured image dataset from Google Drive, applies standard computer-vision preprocessing, trains a CNN (with transfer learning), evaluates accuracy, and saves the trained model for reuse.
 
 ---
 
-## 📁 Files in This Repository
+## Files in This Repository
 
 * **`LAB1_GENAI.ipynb`** – Main notebook used for dataset loading, preprocessing, training, validation, and saving the model.
 * **`Custom_Cnn.ipynb`** – Notebook with a custom CNN architecture and experiments.
@@ -12,14 +12,14 @@ Both notebooks follow the same data pipeline and produce comparable results.
 
 ---
 
-## 📂 Dataset (Google Drive)
+## Dataset (Google Drive)
 
 The dataset used in this project is stored in Google Drive and organized by breed folders (compatible with PyTorch `ImageFolder`).
 
 🔗 **Google Drive Dataset Link:**
 [https://drive.google.com/drive/folders/1UXNli9LovIuu6LheKiG9jTa_ECPoytfI?usp=drive_link](https://drive.google.com/drive/folders/1UXNli9LovIuu6LheKiG9jTa_ECPoytfI?usp=drive_link)
 
-### 📊 Structure
+### Structure
 
 ```
 cat_datasets/
@@ -37,7 +37,7 @@ Each folder contains images of a single breed. This structure allows direct load
 
 ---
 
-## 🧠 Data Preprocessing
+##  Data Preprocessing
 
 Both notebooks apply the following transformations before training:
 
@@ -58,7 +58,7 @@ transform = transforms.Compose([
 
 ---
 
-## ⚙️ Model & Training
+##  Model & Training
 
 ### Framework
 
@@ -79,7 +79,7 @@ transform = transforms.Compose([
 
 ---
 
-## 💾 Model Saving
+## Model Saving
 
 To prevent data loss in Google Colab, the trained model is saved directly to Google Drive:
 
@@ -97,7 +97,7 @@ model.eval()
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 1. Open either notebook (`LAB1_GENAI.ipynb` or `Custom_Cnn.ipynb`) in **Google Colab**.
 2. Mount Google Drive:
@@ -122,7 +122,6 @@ The model achieves strong validation accuracy across multiple cat breeds using t
 
 92% accuracy
 
-## 👨‍💻 Author
 
 **Nitesh Goel**
 B.Tech CSE | Generative AI / Deep Learning Project
