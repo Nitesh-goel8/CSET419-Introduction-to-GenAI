@@ -120,7 +120,7 @@ model.eval()
 
 The model achieves strong validation accuracy across multiple cat breeds using transfer learning and standardized preprocessing. Performance may vary depending on the number of epochs and dataset size, but results are consistent across both notebooks.
 
-*(You can add your exact accuracy here if required for reporting.)*
+92% accuracy
 
 ## 👨‍💻 Author
 
