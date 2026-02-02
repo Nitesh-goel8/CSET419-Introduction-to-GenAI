@@ -16,8 +16,4 @@ Saving reconstruction results (input vs reconstructed images) for qualitative ev
 
 In addition to reconstruction, the project demonstrates the generative ability of VAEs by sampling random latent vectors from a standard normal distribution and decoding them to produce new digit images. The notebook also supports resuming training from saved checkpoints, allowing long training runs to be continued without restarting and enabling further fine-tuning for improved output quality.
 
-This repository serves as a practical implementation of VAEs for MNIST, including both reconstruction-based evaluation and sampling-based generation.
 
-If you want, I can also generate a full README with sections like Installation, Requirements, Project Structure, Training, Results, Outputs Folder, and Future Improvements in the same professional tone.
-
-ChatGPT can make
